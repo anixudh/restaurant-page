@@ -4,7 +4,7 @@ const loadFrontPage=()=>{
     const header=document.createElement("div");
     header.classList.add("header");
     const head=document.createElement("h1");
-    head.textContent="Anirudh's Restaurant";
+    head.textContent="ANIRUDH'S RESTAURANT";
     header.appendChild(head);
 
     const img=document.createElement("img");

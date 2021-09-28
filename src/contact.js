@@ -7,6 +7,8 @@ const loadContactPage=()=>{
     head.textContent="Contact us!";
     header.appendChild(head);
 
+    const links=document.createElement("div");
+    links.classList.add("links");
     const github=document.createElement("a");
     github.href="http://github.com/anixudh";
     github.textContent="GitHub";
@@ -16,8 +18,9 @@ const loadContactPage=()=>{
     
 
     content.appendChild(header);
-    content.appendChild(github);
-    content.appendChild(email);
+    links.appendChild(github);
+    links.appendChild(email);
+    content.appendChild(links);
 };
 
 export {loadContactPage};
