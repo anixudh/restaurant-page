@@ -9,7 +9,7 @@ const loadMenuPage=()=>{
 
     const img=document.createElement("img");
     img.id="menu-img";
-    img.src="../images/menu.jpg";
+    img.src="./images/menu.jpg";
 
     
 

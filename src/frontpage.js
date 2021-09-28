@@ -9,7 +9,7 @@ const loadFrontPage=()=>{
 
     const img=document.createElement("img");
     img.id="rest-img";
-    img.src="../images/res.jpg";
+    img.src="./images/res.jpg";
 
     const info=document.createElement("div");
     const br=document.createElement("br");
